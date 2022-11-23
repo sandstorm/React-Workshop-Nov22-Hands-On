@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './components/Counter'
+import CounterWithCustomHook from './components/CounterWithCustomHook'
 import HeaderAndText from './components/HeaderAndText'
 import HigherOrderComponent from './components/HigherOrderComponent'
 import MyList from './components/MyList'
@@ -21,6 +22,9 @@ function App() {
       <Counter />
 
       <ResizeDependendComponent />
+
+      <CounterWithCustomHook initialValue={0} />
+      <CounterWithCustomHook initialValue={100} stepSize={10} />
     </div>
   )
 }
