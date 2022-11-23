@@ -5,6 +5,7 @@ import HeaderAndText from './components/HeaderAndText'
 import HigherOrderComponent from './components/HigherOrderComponent'
 import MyList from './components/MyList'
 import ResizeDependendComponent from './components/ResizeDependendComponent'
+import TodoList from './components/TodoList'
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
 
       <CounterWithCustomHook initialValue={0} />
       <CounterWithCustomHook initialValue={100} stepSize={10} />
+
+      ########
+
+      <TodoList />
     </div>
   )
 }
