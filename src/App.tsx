@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './components/Counter'
 import HeaderAndText from './components/HeaderAndText'
 import HigherOrderComponent from './components/HigherOrderComponent'
 import MyList from './components/MyList'
@@ -16,6 +17,8 @@ function App() {
       </HigherOrderComponent>
       
       <HigherOrderComponent otherComponent={<div>DEF</div>} children={<h3>Children as a prop</h3>} />
+
+      <Counter />
     </div>
   )
 }
