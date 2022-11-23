@@ -5,7 +5,7 @@ import HeaderAndText from './components/HeaderAndText'
 import HigherOrderComponent from './components/HigherOrderComponent'
 import MyList from './components/MyList'
 import ResizeDependendComponent from './components/ResizeDependendComponent'
-import TodoList from './components/TodoList'
+import TodoListWithCustomHook from './components/TodoList/TodoListWithCustomHook'
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
 
       ########
 
-      <TodoList />
+      <TodoListWithCustomHook />
     </div>
   )
 }

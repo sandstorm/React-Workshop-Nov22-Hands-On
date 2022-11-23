@@ -26,7 +26,7 @@ const TodoList = () => {
             {todos.map(todo => (
                 <li key={todo.id}>
                     {/* the missing onChange handler will result in an error in the console here - read it to learn more */}
-                    <input type='checkbox' checked={todo.completed}/> {todo.title}
+                    <input type='checkbox' checked={todo.completed} readOnly/> {todo.title}
                 </li>
             ))}
         </ul>

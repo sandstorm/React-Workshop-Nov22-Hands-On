@@ -31,7 +31,7 @@ const useResizeObserver = (elementToObserve: HTMLElement) => {
     )
 
     // this gives you an indication for hook re-evaluations (e.g. every time "viewPortSize" changes)
-    console.log('hook re-evaluated!')
+    // console.log('hook re-evaluated!')
 
     return {
         size: viewPortSize,
